@@ -1,18 +1,4 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
-
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomeDoProjeto
+# Atores e Filmes
 
 **Número da Lista**: 1<br>
 **Conteúdo da Disciplina**: Grafos 1<br>
@@ -24,7 +10,7 @@ Temas:
 | 19/0054832  |  Artur Talles Sousa |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+O projeto se trata de um programa, baseado em Grafos, que indica quais filmes 2 atores tem em comum. Deve-se selecionar dois atores e o programa retorna os filmes que os dois atores atuaram.
 
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em funcionamento.
