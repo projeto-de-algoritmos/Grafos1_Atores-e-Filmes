@@ -12,16 +12,16 @@ Temas:
  
  (Apague essa seção)
 
-# NomedoProjeto
+# NomeDoProjeto
 
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Número da Lista**: 1<br>
+**Conteúdo da Disciplina**: Grafos 1<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 19/0044799  |  Antônio Neto |
+| 19/0054832  |  Artur Talles Sousa |
 
 ## Sobre 
 Descreva os objetivos do seu projeto e como ele funciona. 
