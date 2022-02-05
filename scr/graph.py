@@ -1,8 +1,8 @@
 from tkinter import *
-#import networkx as nx
-#import matplotlib.pyplot as plt
-#import pandas as pd 
-#import numpy as np
+import networkx as nx
+import matplotlib.pyplot as plt
+import pandas as pd 
+import numpy as np
 import imdb
 
 
@@ -19,15 +19,38 @@ def warning():
     bio = moviesDB.get_person_biography(id)
 
     actor_movies = bio['titlesRefs'].keys()
-    print(bio.keys())
-    print(bio['titlesRefs'].keys())
+    #print(bio.keys())
+    #print(bio['titlesRefs'].keys())
 
     msg = f'{actor_movies}'
+    msg = separaStr(msg)
     
     textoPopup4["text"] = msg
+
+    graphs(ator, msg)
     
+def separaStr(texto):
+    lista_filmes = texto.replace('dict_keys', '')
+    lista_filmes = lista_filmes.replace('([','')
+    lista_filmes = lista_filmes.replace('])','')
+    filmes = lista_filmes.split(', ')
+    #tamanho = len(filmes)
+    #for n in range(tamanho):
+    #    print(filmes[n])
+    return filmes
 
+def graphs(ator, filmes):
+    graph = nx.Graph()
 
+    graph.add_node(ator)
+    for x in range(len(filmes)):
+        graph.add_node(filmes[x])
+
+    print(graph.nodes())
+
+    plt.figure(1)
+    nx.draw_networkx(graph, pos=nx.spring_layout(graph), with_labels=True)
+    plt.show()
 
 interface = Tk()
 interface.title("Projeto Atores e Filmes")
