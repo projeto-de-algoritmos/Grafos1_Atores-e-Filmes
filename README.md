@@ -10,7 +10,7 @@
 | 19/0054832  |  Artur Talles Sousa |
 
 ## Sobre 
-O projeto se trata de um programa, baseado em Grafos, que indica quais filmes 2 atores tem em comum. Deve-se selecionar dois atores e o programa retorna os filmes que os dois atores atuaram.
+O projeto se trata de um programa, baseado em Grafos, que indica se um ator/atriz já participou de um determinado filme. Além disso, o programa apresenta o grafo de filmes desse ator ou atriz, e o tempo de execução dos algoritmos BFS e DFS.
 
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em funcionamento.
