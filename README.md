@@ -48,9 +48,20 @@ O projeto se trata de um programa, baseado em Grafos, que relaciona Artistas e F
 ```
 git clone https://github.com/projeto-de-algoritmos/Grafos1_Atores-e-Filmes.git
 ```
-### **2** - Vá até o arquivo main.py
+### **2** - Instale as bibliotecas NetworkX e IMDb:
+```
+pip install networkx[default]
+```
 
-### **3** - Rode o programa. (Em caso de problemas de importação, o "quickfix" do VSCode costuma resolver)
+```
+pip install imdbpy
+```
+
+Mais informações em https://networkx.org/documentation/stable/install.html e https://pypi.org/project/IMDbPY/
+
+### **3** - Vá até o arquivo main.py
+
+### **4** - Rode o programa. (Em caso de problemas de importação, o "quickfix" do VSCode costuma resolver)
 
 ## Outros 
 Quaisquer problema, nossos contatos: (Telegram User)
